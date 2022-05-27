@@ -1,0 +1,91 @@
+h1 {
+  color: white;
+  font-family: "Outfit", sans-serif;
+  font-size: 18px;
+  font-weight: 400;
+}
+p {
+  color: hsl(215, 51%, 70%);
+  font-family: "Outfit", sans-serif;
+  font-size: 14px;
+  font-weight: 300;
+}
+.full-page {
+  max-width: 1440px;
+}
+.attribution {
+  font-size: 10px;
+  text-align: center;
+  color: hsl(215, 51%, 70%);
+  font-style: italic;
+  padding-top: 5px;
+}
+.attribution a {
+  color: hsl(228, 45%, 44%);
+}
+.card {
+  background-color: hsl(216, 50%, 16%);
+  margin: 0 auto;
+  margin-top: 100px;
+  border-radius: 13px;
+}
+.card-body {
+  padding-top: 0;
+}
+.card-img-top {
+  padding: 16px;
+  border-radius: 23px;
+}
+.nft-details {
+  display: block;
+  padding-bottom: 10px;
+}
+.eth-icon {
+  padding-right: 3px;
+  position: relative;
+  bottom: 1px;
+}
+.eth-cost {
+  color: hsl(178, 100%, 50%);
+  font-family: "Outfit", sans-serif;
+  font-size: 14px;
+  font-weight: 600;
+  float: left;
+}
+.clock-icon {
+  padding-right: 3px;
+  position: relative;
+  bottom: 1px;
+}
+.time-remaining {
+  color: hsl(215, 51%, 70%);
+  font-family: "Outfit", sans-serif;
+  font-size: 13px;
+  font-weight: 300;
+  float: right;
+}
+.line {
+  color: hsl(215, 31%, 37%);
+  display: block;
+  margin: 0 auto;
+}
+.creator-attribution {
+  color: hsl(215, 51%, 70%);
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+.creator-tag {
+  font-family: "Outfit", sans-serif;
+  font-size: 14px;
+  font-weight: 300;
+  padding-left: 8px;
+}
+.creator-avatar {
+  border: solid;
+  border-color: white;
+  border-radius: 50px;
+  border-width: 1px;
+}
+.creator {
+  color: white;
+}
