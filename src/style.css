@@ -4,6 +4,10 @@ h1 {
   font-size: 18px;
   font-weight: 400;
 }
+h1:hover {
+  color: hsl(178, 100%, 50%);
+  cursor: pointer;
+}
 p {
   color: hsl(215, 51%, 70%);
   font-family: "Outfit", sans-serif;
@@ -35,6 +39,10 @@ p {
 .card-img-top {
   padding: 16px;
   border-radius: 23px;
+  display: inline-block;
+}
+.card-img-top:hover {
+  cursor: pointer;
 }
 .nft-details {
   display: block;
@@ -88,4 +96,8 @@ p {
 }
 .creator {
   color: white;
+}
+.creator:hover {
+  color: hsl(178, 100%, 50%);
+  cursor: pointer;
 }
