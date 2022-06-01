@@ -14,6 +14,7 @@ p {
   font-size: 14px;
   font-weight: 300;
 }
+
 .full-page {
   max-width: 1440px;
 }
@@ -27,6 +28,7 @@ p {
 .attribution a {
   color: hsl(228, 45%, 44%);
 }
+
 .card {
   background-color: hsl(216, 50%, 16%);
   margin: 0 auto;
@@ -36,13 +38,40 @@ p {
 .card-body {
   padding-top: 0;
 }
+.image-container {
+  position: relative;
+  cursor: pointer;
+}
 .card-img-top {
   padding: 16px;
   border-radius: 23px;
   display: inline-block;
 }
 .card-img-top:hover {
-  cursor: pointer;
+  filter: inherit;
+}
+.img-filter {
+  position: absolute;
+  top: 8px;
+  left: 8px;
+  background-color: transparent;
+  border-radius: 7px;
+  opacity: 0;
+  transition: 0.3s ease;
+}
+.img-filter:hover {
+  opacity: 1;
+}
+.img-overlay {
+  position: absolute;
+  top: 118px;
+  left: 122px;
+  opacity: 0;
+  transition: 0.3s ease;
+  background-color: transparent;
+}
+.image-container:hover .img-overlay {
+  opacity: 1;
 }
 .nft-details {
   display: block;
